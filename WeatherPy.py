@@ -41,7 +41,7 @@ def readweather(city):
     humidityLabel.place(x=10,y=260)
     
     visibility=data['data']['current_condition'][0]['visibility']
-    visibilityLabel=Label(window,text='Visibility    : '+visibility+' km',font=("Helvetica",12))
+    visibilityLabel=Label(window,text='Visibility    : '+visibility+' feet',font=("Helvetica",12))
     visibilityLabel.place(x=10,y=280)
     
     pressure=data['data']['current_condition'][0]['pressure']
